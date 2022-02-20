@@ -1,0 +1,25 @@
+.tesla-stats {
+  margin: -70px 0 30px; }
+  .tesla-stats ul {
+    text-align: center; }
+    .tesla-stats ul li {
+      display: inline-block;
+      width: 130px;
+      position: relative; }
+      .tesla-stats ul li p {
+        font-size: 40px;
+        font-weight: normal;
+        font-family: 'RobotoNormal';
+        display: block;
+        padding: 0 18px 0 0;
+        position: relative;
+        color: #008dff;
+        text-align: right; }
+        .tesla-stats ul li p:after {
+          font-size: 14px;
+          font-weight: normal;
+          font-family: 'RobotoNormal';
+          content: 'MI';
+          position: absolute;
+          top: 8px;
+          right: 0; }
